@@ -1,0 +1,441 @@
+#home_page_bg{
+    background-color: black;
+    background-image: url('..\\Final_Assignment_Img\\stars2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#btn{
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,rgb(228, 219, 219) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+#btn:hover{
+    --_p: 100%;
+    --_s: .3s;
+}
+#welcome{
+    position: relative;
+    width: 70%;
+    height: 100px;
+    left: 15%;
+    top: 55px;
+    color: white;
+}
+#welcome h1{
+    text-align: center;
+    color: white;
+}
+#welcome p{
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+#information{
+    position: relative;
+    width: 70%;
+    height: 1800px;
+    top: 55px;
+    left: 15%;
+    background-color: rgba(26, 25, 25, 0.608);
+}
+
+/*article 1 */
+#article1{
+    position: relative;
+    width: 75%;
+    height: 360px;
+    bottom: 600px;
+}
+#space1{
+    position: relative;
+    width: 60%;
+    height: 340px;
+    top: 8px;
+    left: 8px;
+    overflow: hidden;
+}
+#space1 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#space1 img:hover{
+    transform: scale(1.1);
+}
+#space_label{
+    position: relative;
+    bottom: 33%;
+    width: 100%;
+    height: 23%;
+    background-color: rgba(0, 0, 0, 0.489);
+}
+#space_label a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    font-size: 23px;
+    font-weight: bold;
+}
+#space1:hover{
+    opacity: 0.9;
+}
+#space1:hover #space_label a{
+    color: rgb(17, 177, 177);
+}
+#space2{
+    position: relative;
+    width: 35%;
+    height: 165px;
+    bottom: 92%;
+    left: 63%;
+    background-color: rgb(217, 209, 209);
+}
+#space2a{
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+    left: 3%;
+    color: black;
+    font-weight: bold;
+    font-size: 23px;
+}
+#space2a:hover{
+    color: rgb(17, 177, 177);
+}
+#space3{
+    position: relative;
+    width: 35%;
+    height: 165px;
+    left: 63%;
+    bottom: 89%;
+    background-color: rgb(217, 209, 209);
+}
+#space3a{
+    text-decoration: none;
+    position: relative;
+    left: 3%;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#space3a:hover{
+    color: rgb(17, 177, 177);
+}
+#spacelink{
+    position: relative;
+    width: 60px;
+    height: 35px;
+    background-color: #333;
+}
+#spacelink a{
+    position: relative;
+    text-decoration: none;
+    text-align: center;
+    top: 20%;
+    left: 10%;
+    color: white;
+    text-shadow: #333;
+}
+#spacelink a:hover{
+    text-decoration: underline;
+}
+/*article 2*/
+#article2{
+    position: relative;
+    width: 75%;
+    height: 650px;
+    bottom: 580px;
+}
+/*latest 1*/
+#latest1{
+    position: relative;
+    width: 32%;
+    height: 300px;
+    left: 8px;
+    background-color: white;
+    overflow: hidden;
+}
+#latest1_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest1_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest1a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest1:hover{
+    opacity: 0.9;
+}
+#latest1:hover #latest1a{
+    color: rgb(17, 177, 177);
+}
+#latest1:hover #latest1_img_border img{
+    transform: scale(1.1);
+}
+/*latest 2*/
+#latest2{
+    position: relative;
+    width: 31%;
+    height: 300px;
+    left: 34%;
+    bottom: 46%;
+    background-color: white;
+    overflow: hidden;
+}
+#latest2_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest2_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest2a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest2:hover{
+    opacity: 0.9;
+}
+#latest2:hover #latest2a{
+    color: rgb(17, 177, 177);
+}
+#latest2:hover #latest2_img_border img{
+    transform: scale(1.1);
+}
+/*latest 3*/
+#latest3{
+    position: relative;
+    width: 32%;
+    height: 300px;
+    left: 66%;
+    bottom: 92%;
+    background-color: white;
+}
+#latest3_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest3_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest3a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest3:hover{
+    opacity: 0.9;
+}
+#latest3:hover #latest3a{
+    color: rgb(17, 177, 177);
+}
+#latest3:hover #latest3_img_border img{
+    transform: scale(1.1);
+}
+/*latest 4*/
+#latest4{
+    position: relative;
+    width: 32%;
+    height: 300px;
+    left: 8px;
+    bottom: 91%;
+    background-color: white;
+}
+#latest4_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest4_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest4a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest4:hover{
+    opacity: 0.9;
+}
+#latest4:hover #latest4a{
+    color: rgb(17, 177, 177);
+}
+#latest4:hover #latest4_img_border img{
+    transform: scale(1.1);
+}
+/*latest 5*/
+#latest5{
+    position: relative;
+    width: 31%;
+    height: 300px;
+    left: 34%;
+    bottom: 137%;
+    background-color: white;
+}
+#latest5_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest5_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest5a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest5:hover{
+    opacity: 0.9;
+}
+#latest5:hover #latest5a{
+    color: rgb(17, 177, 177);
+}
+#latest5:hover #latest5_img_border img{
+    transform: scale(1.1);
+}
+/*latest 6*/
+#latest6{
+    position: relative;
+    width: 32%;
+    height: 300px;
+    left: 66%;
+    bottom: 183%;
+    background-color: white;
+}
+#latest6_img_border{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    overflow: hidden;
+}
+#latest6_img_border img{
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#latest6a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+#latest6:hover{
+    opacity: 0.9;
+}
+#latest6:hover #latest6a{
+    color: rgb(17, 177, 177);
+}
+#latest6:hover #latest6_img_border img{
+    transform: scale(1.1);
+}
+/*Footer*/
+#footer{
+    background-color: #333;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+}
+#footer-content{
+    color: #fff;
+    font-size: 14px;
+    padding: 28px 1.5em;
+    max-width: 928px;
+    margin: 0 auto;
+}
+/*Small news menu*/
+#small_menu{
+    position: sticky;
+    top: 4rem;
+    left: 67.5%;
+    width: 24%;
+    height: 600px;
+    overflow-y: scroll;
+}
+#small_menu::-webkit-scrollbar{
+    display: none;
+}
+.navi_table{
+    border: 1px solid white;
+    padding: 15px;
+    width: 100%;
+    word-spacing: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgba(237, 231, 231, 0.503);
+}
+.navi_table a{
+    text-decoration: none;
+    color: black;
+}
+.icon-bar {
+    position: sticky;
+    top:0;
+    width: 100%;
+    background-color: #555;
+    overflow: hidden;
+}
+  
+.icon-bar a {
+    text-decoration: none;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 11px;
+  }
+  
+.icon-bar a:hover {
+    background-color: #000;
+}
+.navi_table:hover{
+    opacity: 0.9;
+}
+.navi_table:hover a{
+    color: rgb(17, 177, 177);
+}

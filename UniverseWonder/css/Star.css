@@ -1,0 +1,154 @@
+#home_page_bg{
+    background-color: black;
+    background-image: url('..\\Final_Assignment_Img\\stars2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#btn{
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,rgb(228, 219, 219) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+#btn:hover{
+    --_p: 100%;
+    --_s: .3s;
+}
+/*Information*/
+#information{
+    position: relative;
+    width: 55%;
+    height: 3600px;
+    top: 55px;
+    left: 22%;
+    
+}
+#article1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#article1 h1{
+    color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 50px;
+}
+#article1 p{
+    color: white;
+    font-family: 'Gill Sans',sans-serif;
+    font-size: 23px;
+}
+/*article 2*/
+#article2 h1{
+    color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 30px;
+}
+#article2 p{
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 21px;
+}
+#article2 img{
+    position: relative;
+    width: 80%;
+    height: 360px;
+    left: 10%;
+}
+/*article 3*/
+#article3 h1{
+    color: white;
+    font-weight: bold;
+    font-family:'Gill Sans', sans-serif;
+    font-size: 30px;
+}
+#article3 p{
+    color: white;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 21px;
+}
+#twinkle_container{
+    position: relative;
+    width: 80%;
+    height: 350px;
+    left: 10%;
+}
+#twinkle_img{
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+/*types of stars*/
+.carousel_container{
+    position: relative;
+    width: 80%;
+    height: 580px;
+    left: 10%;
+    background-color: black;
+}
+.carousel_img_div{
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+#carousel_img{
+    position: relative;
+    left: 16%;
+    width: 450px;
+    height: 380px;
+}
+#slide_paragraph{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+#slide_paragraph h5,p{
+    color: white;
+}
+
+#slide_paragraph{
+    overflow-y: scroll;
+}
+#slide_paragraph::-webkit-scrollbar{
+    display: none;
+}
+#slide_btn{
+    position: absolute;
+    bottom: 30%;
+}
+#indicator_btn{
+    position: absolute;
+    bottom: 35%;
+}
+/*Footer*/
+#footer{
+    background-color: #333;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+}
+#footer-content{
+    color: #fff;
+    font-size: 14px;
+    padding: 28px 1.5em;
+    max-width: 928px;
+    margin: 0 auto;
+}
+#information hr{
+    border-color: white;
+    background-color: white;
+    color: white;
+    height: 1px;
+}

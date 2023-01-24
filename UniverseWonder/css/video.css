@@ -1,0 +1,134 @@
+#home_page_bg{
+    background-color: black;
+    background-image: url('..\\Final_Assignment_Img\\stars2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#btn{
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,rgb(228, 219, 219) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+#btn:hover{
+    --_p: 100%;
+    --_s: .3s;
+}
+#information{
+    position: relative;
+    height: 1800px;
+    top: 55px;
+    background-color: rgba(11, 11, 11, 0.616);
+}
+/*article 1*/
+#article1{
+    position: relative;
+    height: 200px;
+    top: 100px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#article1::-webkit-scrollbar{
+    display: none;
+}
+#vid1{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 20px;
+}
+#vid2{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 460px;
+    bottom: 200px;
+
+}
+#vid3{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 900px;
+    bottom: 400px;
+
+}
+#vid4{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 1340px;
+    bottom: 600px;
+
+}
+#vid5{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 1780px;
+    bottom: 800px;
+
+}
+#vid6{
+    position: relative;
+    width: 420px;
+    height: 200px;
+    left: 2220px;
+    bottom: 1000px; 
+}
+/*ARTICLE 2*/
+#article2{
+    position: relative;
+    height: 200px;
+    top: 220px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#article2::-webkit-scrollbar{
+    display: none;
+}
+/*article 3*/
+#article3{
+    position: relative;
+    height: 200px;
+    top: 360px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#article3::-webkit-scrollbar{
+    display: none;
+}
+/*article 4*/
+#article4{
+    position: relative;
+    height: 200px;
+    top: 500px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#article4::-webkit-scrollbar{
+    display: none;
+}
+#footer{
+    background-color: #333;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+}
+#footer-content{
+    color: #fff;
+    font-size: 14px;
+    padding: 28px 1.5em;
+    max-width: 928px;
+    margin: 0 auto;
+}

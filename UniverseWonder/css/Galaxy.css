@@ -1,0 +1,202 @@
+#home_page_bg{
+    background-color: black;
+    background-image: url('..\\Final_Assignment_Img\\stars2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#btn{
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #1095c1; /* the color */
+
+    color: #0000;
+    padding-block: var(--b);
+    background: 
+      linear-gradient(var(--c) 50%,rgb(228, 219, 219) 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+      linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+            background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+#btn:hover{
+    --_p: 100%;
+    --_s: .3s;
+}
+#information{
+    position: relative;
+    width: 70%;
+    height: 2300px;
+    top: 55px;
+    left: 15%;
+
+}
+/*article 1*/
+#article1{
+    position: relative;
+    height: 850px;
+}
+#galaxy_container{
+    position: relative;
+    height: 350px;
+}
+#article1_btn_position{
+    position: relative;
+}
+#article1_btn{
+    width: 100px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0);
+}
+#article1_btn p{
+    position: relative;
+    color: white;
+    left: 500%;
+    top: 15%;
+}
+#galaxy_txt1{
+    position: relative;
+    width: 65%;
+    height: auto;
+    float: left;
+    left: 10px;
+}
+#galaxy_txt1 p{
+    color: white;
+}
+#galaxy_txt1 h3{
+    color: white;
+    font-weight: bold;
+}
+#galaxy_txt2{
+    position: relative;
+    width: 65%;
+    height: auto;
+    float: right;
+}
+#galaxy_txt2 p{
+    color: white;
+}
+#galaxy_txt2 h3{
+    color: white;
+    font-weight: bold;
+}
+#galaxy_img1{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    float: right;
+    border: 2px solid white;
+    overflow: hidden;
+}
+#galaxy_img1 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#galaxy_img2{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    float: left;
+    border: 2px solid white;
+    overflow: hidden;
+}
+#galaxy_img2 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#galaxy_img1:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+#galaxy_img2:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+/*article 2*/
+#article2{
+    position: relative;
+    height: 1300px;
+}
+#nebula_txt1{
+    position: relative;
+    width: 65%;
+    height: auto;
+    float: left;
+    left: 10px;
+}
+#nebula_txt1 p{
+    color: white;
+}
+#nebula_txt1 h3{
+    color: white;
+    font-weight: bold;
+}
+#nebula_txt2{
+    position: relative;
+    width: 65%;
+    height: auto;
+    float: right;
+}
+#nebula_txt2 p{
+    color: white;
+}
+#nebula_txt2 h3{
+    color: white;
+    font-weight: bold;
+}
+#nebula_img1{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    float: right;
+    border: 2px solid white;
+    overflow: hidden;
+}
+#nebula_img1 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#nebula_img2{
+    position: relative;
+    width: 30%;
+    height: 250px;
+    float: left;
+    border: 2px solid white;
+    overflow: hidden;
+}
+#nebula_img2 img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s all ease-in-out;
+}
+#nebula_img1:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+#nebula_img2:hover img{
+    opacity: 0.9;
+    transform: scale(1.1);
+}
+/*footer*/
+#footer{
+    background-color: #333;
+    max-width: 100%;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+    position: relative;
+}
+#footer-content{
+    color: #fff;
+    font-size: 14px;
+    padding: 28px 1.5em;
+    max-width: 928px;
+    margin: 0 auto;
+}
